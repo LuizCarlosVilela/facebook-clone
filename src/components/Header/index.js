@@ -5,6 +5,7 @@ import HomeIcon from "@material-ui/icons/Home";
 import FlagIcon from "@material-ui/icons/Flag";
 
 import SubscriptionsOutlinedIcon from "@material-ui/icons/SubscriptionsOutlined";
+import StorefrontOutlinedIcon from "@material-ui/icons/StorefrontOutlined";
 import SupervidesUserCircleIcon from "@material-ui/icons/SupervisedUserCircle";
 
 import { Avatar, IconButton } from "@material-ui/core";
@@ -42,6 +43,10 @@ const Header = () => {
 
         <div className="header_option">
           <SubscriptionsOutlinedIcon fontsize="large" />
+        </div>
+
+        <div className="header_option">
+          <StorefrontOutlinedIcon fontsize="large" />
         </div>
 
         <div className="header_option">
