@@ -1,5 +1,6 @@
 .header {
     display: flex;
+    
 
     padding: 15px 20px;
     justify-content: space-between;
@@ -16,12 +17,14 @@
 }
 
 .header_left > img {
+    align-self: center;
     height: 40px;
 }
 
 .header_input {
     display: flex;
     align-items: center;
+    align-self: center;
     background-color: #eff2f5;
     padding: 10px;
     margin-left: 10px;
@@ -32,6 +35,10 @@
     border: none;
     background-color: transparent;
     outline-width: 0;
+}
+
+.header_input .MuiSvgIcon-root {
+    cursor: pointer;
 }
 
 .header_center {
@@ -68,5 +75,16 @@
 }
 .header_option:hover > .MuiSvgIcon-root {
     color: #2e81f4;
+}
+
+.header_info {
+    display: flex;
+    align-items: center;
+}
+.header_info > h4 {
+    margin-left: 10px;
+}
+.header_right {
+    display: flex;
 }
 
