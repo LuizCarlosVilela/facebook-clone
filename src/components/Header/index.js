@@ -56,7 +56,7 @@ const Header = () => {
 
       <div className="header_right">
         <div className="header_info">
-          <Avatar />
+          <Avatar src="https://avatars3.githubusercontent.com/u/57350762?s=460&u=5c28607a6573c3f9ae703ebc9e23c31c916e3ab3&v=4" />
           <h4>Luiz Carlos</h4>
         </div>
 
