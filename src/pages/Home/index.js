@@ -4,6 +4,10 @@ const Home = () => {
   return (
     <div>
       <h1>Deus é mais!</h1>
+      <h1>Deus é mais!</h1>
+      <h1>Deus é mais!</h1>
+      <h1>Deus é mais!</h1>
+      <h1>Deus é mais!</h1>
     </div>
   );
 };
