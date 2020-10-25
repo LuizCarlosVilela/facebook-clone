@@ -1,90 +1,89 @@
 .header {
-    display: flex;
-    
+  display: flex;
 
-    padding: 15px 20px;
-    justify-content: space-between;
-    position: sticky;
-    background-color: white;
-    z-index: 100;
-    top: 0;
-    box-shadow: 0px 5px 8px -9px rgb(0, 0, 0.75);
+  padding: 15px 20px;
+  justify-content: space-between;
+  position: sticky;
+
+  background-color: #f1f2f5;
+  z-index: 100;
+  top: 0;
+  box-shadow: 0px 5px 8px -9px rgb(0, 0, 0.75);
 }
 
 .header_left {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .header_left > img {
-    align-self: center;
-    height: 40px;
+  align-self: center;
+  height: 40px;
 }
 
 .header_input {
-    display: flex;
-    align-items: center;
-    align-self: center;
-    background-color: #eff2f5;
-    padding: 10px;
-    margin-left: 10px;
-    border-radius: 33px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  background-color: #eff2f5;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 33px;
 }
 
 .header_input > input {
-    border: none;
-    background-color: transparent;
-    outline-width: 0;
+  border: none;
+  background-color: transparent;
+  outline-width: 0;
 }
 
 .header_input .MuiSvgIcon-root {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .header_center {
-    display: flex;
-    flex: 1;
-    justify-content: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
 }
 
 .header_option {
-    display: flex;
-    align-items: center;
-    padding: 0 30px;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  cursor: pointer;
 }
 
 .header_option:hover {
-    background-color: #eff2f5;
-    border-radius: 10px;
-    align-items: center;
-    padding: 0 30px;
-    border-radius: none;
+  background-color: #eff2f5;
+  border-radius: 10px;
+  align-items: center;
+  padding: 0 30px;
+  border-radius: none;
 }
 
 .header_option--active > .MuiSvgIcon-root {
-    color: #2e81f4;
+  color: #2e81f4;
 }
 
 .header_option--active {
-    border-bottom: 4px solid #2e81f4;
+  border-bottom: 4px solid #2e81f4;
 }
 
 .header_option > .MuiSvgIcon-root {
-    color: gray;
+  color: gray;
 }
 .header_option:hover > .MuiSvgIcon-root {
-    color: #2e81f4;
+  color: #2e81f4;
 }
 
 .header_info {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .header_info > h4 {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 .header_right {
-    display: flex;
+  display: flex;
 }
-
