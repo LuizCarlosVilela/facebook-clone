@@ -1,9 +1,12 @@
 import React from "react";
 
+import Sidebar from '../../components/SideBar';
+
 const Home = () => {
   return (
     <div>
-      <h1>Eita!</h1>
+      <Sidebar />
+      
     </div>
   );
 };
