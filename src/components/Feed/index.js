@@ -3,12 +3,13 @@ import React from 'react';
 import "./styles.css";
 
 import StoryReel from './components/StoryReel';
+import MessageSender from './components/MessageSender';
 
 function Feed() {
   return (
       <div className="feed">
           <StoryReel />
-          {/* <MessageSender /> */}
+          <MessageSender />
 
           {/* {
               postsData.map(entry => (
