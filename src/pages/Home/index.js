@@ -11,7 +11,6 @@ const Home = () => {
       <Sidebar />
       <Feed />
       <h1>Deus é mais</h1>
-      <h1>Deus é mais</h1>
     </div>
   );
 };
