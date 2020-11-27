@@ -11,7 +11,7 @@ function page404() {
         <h1>Home Page</h1>
       </Link>
       <h2>
-        Error: 404 <strong>Page not function</strong>
+        Error: 404 <strong>Page not Found</strong>
       </h2>
     </div>
   );
