@@ -5,6 +5,7 @@
     background-color: white;
     border-radius: 15px;
     box-shadow: 0px 5px 7px -7px rgb(0, 0, 0, 0.75);
+    width: 100%;
 }
 
 .messageSender__top {
@@ -27,8 +28,16 @@
     background-color: #eff2f5;
 }
 
+.messageSender__fileSelector {
+    width: 20%;
+}
+
 .messageSender__top > form > button {
-    display: none;
+    height: 0;
+    width: 0;
+    background-color: transparent;
+    color: transparent;
+    border: none;
 }
 
 .messageSender__input {
