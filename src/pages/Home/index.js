@@ -10,7 +10,6 @@ const Home = () => {
     <div className="home">
       <Sidebar />
       <Feed />
-      <h1>Deus é mais</h1>
     </div>
   );
 };
